@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 header {
 height: 69px;
 background-color: #Ec362d;
@@ -16,4 +20,41 @@ header p {
     font-size: 37px;
     color: white;
     font-weight: bold;
+}
+
+.Primeiratela{
+    display: flex;
+    justify-content: center;
+
+}
+
+.Primeiratela .criar-quizz {
+border: 1px dashed #b9b9b9; ;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 1052px;
+height: 181px;
+margin-top: 146px;
+display: flex;
+flex-direction: column;
+}
+
+.Primeiratela .criar-quizz p {
+color: #b9b9b9;
+padding-bottom: 25px ;
+font-size: 20px;
+text-align: center;
+
+}
+
+.Primeiratela .criar-quizz .BotaoCriar{
+border: 1px dashed ;
+border-radius: 50px;
+color: #Ec362d;
+width: 136px;
+height: 40px;
+background-color: white;
+font-size: 21px;
+
 }
