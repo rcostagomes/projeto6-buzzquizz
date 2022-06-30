@@ -1,43 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>BuzzQuizz</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <p>BuzzQuizz</p>
+      <h1>BuzzQuizz</h1>
     </header>
-
-    <div class="Primeiratela">
+    <div class="conteudo">
+      <div class="Primeiratela">
         <div class="criar-quizz">
-            <p>Você não criou nenhum
-                <br> 
-               quizz ainda :(</p>
-          <button class="BotaoCriar" > Criar Quizz </button>     
-
-
+          <p>
+            Você não criou nenhum
+            <br />
+            quizz ainda :(
+          </p>
+          <button class="BotaoCriar">Criar Quizz</button>
         </div>
-
-
-
-
-
-
+      </div>
+      <div class="q-base-info">
+        <div class="comece">Comece pelo começo</div>
+        <div class="dados">
+          <div class="titulo">
+            <input
+              class="tquiz"
+              type="text"
+              placeholder="Título do seu quiz"
+              minlength="20"
+              maxlength="65"
+            />
+          </div>
+          <div class="imagem">
+            <input
+              class="url"
+              type="text"
+              placeholder="URL da imagem do seu quizz"
+            />
+          </div>
+          <div class="perguntas">
+            <input type="text" placeholder="Quantidade de perguntas do quizz" />
+          </div>
+          <div class="niveis">
+            <input type="text" placeholder="Quantidade de níveis do quizz" />
+          </div>
+        </div>
+        <button class="prosseguir" onclick="criarperguntas">
+          Prosseguir para criar perguntas
+        </button>
+      </div>
     </div>
-
-
-
-
-
-
-
-</body>
-
+  </body>
 </html>
