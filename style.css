@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #F8F8F8;
+}
+
+/* Topo da  pagina  */ 
 header {
 height: 69px;
 background-color: #Ec362d;
@@ -22,10 +29,17 @@ header p {
     font-weight: bold;
 }
 
-.Primeiratela{
-    display: flex;
-    justify-content: center;
+/* Tela inicial do buzz quiz */
 
+.Primeiratela{
+    width: 1052px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+   
 }
 
 .Primeiratela .criar-quizz {
@@ -38,6 +52,7 @@ height: 181px;
 margin-top: 146px;
 display: flex;
 flex-direction: column;
+margin-bottom: 50px;
 }
 
 .Primeiratela .criar-quizz p {
@@ -60,9 +75,38 @@ cursor: pointer;
 
 }
 
+
+.Primeiratela .Texto{
+    height: 40px;
+    width:1052px;
+    align-items: center;
+    display: flex;
+    font-weight: 700;
+    font-size: 20px; 
+    line-height: 23px;
+    text-align: center;
+    
+}
+
+/* Classe para esconder */
+
+
 .escondido{
     display: none !important;
 }
+
+
+
+
+
+/* Tela do quizz */
+
+.Segundatela{
+
+}
+
+
+/* Tela de criação de quizz */
 
 .Terceiratela{
     display: flex;
