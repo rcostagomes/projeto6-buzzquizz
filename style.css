@@ -23,10 +23,12 @@ right: 0px;
 }
 
 header p {
-    font-family: 'roboto', sans-serif;
     font-size: 37px;
     color: white;
     font-weight: bold;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 43px;
 }
 
 /* Tela inicial do buzz quiz */
@@ -52,7 +54,7 @@ height: 181px;
 margin-top: 146px;
 display: flex;
 flex-direction: column;
-margin-bottom: 50px;
+
 }
 
 .Primeiratela .criar-quizz p {
@@ -76,7 +78,8 @@ cursor: pointer;
 }
 
 
-.Primeiratela .Texto{
+.Primeiratela .NovoUsuario{
+    margin-top: 100px;
     height: 40px;
     width:1052px;
     align-items: center;
@@ -87,6 +90,25 @@ cursor: pointer;
     text-align: center;
     
 }
+.Primeiratela .Usuario{
+    margin-top: 100px;
+    height: 40px;
+    width:1052px;
+    align-items: center;
+    display: flex;
+    font-weight: 700;
+    font-size: 20px; 
+    line-height: 23px;
+    text-align: center;
+    
+}
+.Primeiratela .Texto2 ion-icon {
+color: #Ec362d;
+font-size: 31px;
+margin-left: 10px;
+cursor: pointer;
+}
+
 
 /* Classe para esconder */
 
@@ -94,8 +116,6 @@ cursor: pointer;
 .escondido{
     display: none !important;
 }
-
-
 
 
 
