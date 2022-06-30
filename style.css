@@ -56,5 +56,22 @@ width: 136px;
 height: 40px;
 background-color: white;
 font-size: 21px;
+cursor: pointer;
+
+}
+
+.escondido{
+    display: none !important;
+}
+
+.Terceiratela{
+    display: flex;
+    justify-content: center;
+}
+
+.Terceiratela p {
+  margin-top: 100px;
+  
+
 
 }
