@@ -78,7 +78,7 @@ cursor: pointer;
 }
 
 
-.Primeiratela .NovoUsuario{
+.Primeiratela .TodosOsQuizzes{
     margin-top: 100px;
     height: 40px;
     width:1052px;
@@ -90,7 +90,7 @@ cursor: pointer;
     text-align: center;
     
 }
-.Primeiratela .Usuario{
+.Primeiratela .SeusQuizzes{
     margin-top: 100px;
     height: 40px;
     width:1052px;
@@ -102,7 +102,7 @@ cursor: pointer;
     text-align: center;
     
 }
-.Primeiratela .Texto2 ion-icon {
+.Primeiratela .SeusQuizzes ion-icon {
 color: #Ec362d;
 font-size: 31px;
 margin-left: 10px;
