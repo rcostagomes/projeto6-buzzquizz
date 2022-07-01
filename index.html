@@ -1,94 +1,101 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Css/reset.css">
-    <link rel="stylesheet" href="./Css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https: //fonts.googleapis.com/css2? family= Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500 & display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Css/reset.css" />
+    <link rel="stylesheet" href="./Css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https: //fonts.googleapis.com/css2? family= Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500 & display=swap"
+      rel="stylesheet"
+    />
     <title>BuzzQuizz</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <p>BuzzQuizz</p>
+      <h1>BuzzQuizz</h1>
     </header>
 
-    <div class="Primeiratela">
-        <div class="criar-quizz ">
-            <p>Você não criou nenhum
-                <br>
-                quizz ainda :(
-            </p>
-            <button class="BotaoCriar" onclick="CriarQuiz()"> Criar Quizz </button>
+    <div class="Primeiratela escondido">
+      <div class="criar-quizz">
+        <p>
+          Você não criou nenhum
+          <br />
+          quizz ainda :(
+        </p>
+        <button class="BotaoCriar" onclick="CriarQuiz()">Criar Quizz</button>
+      </div>
 
-
-        
-        
-        
-        
-        
-        
-        </div>
-
-       
-       <div class="SeusQuizzes escondido ">
-        <h1> Seus Quizzes</h1>
-        <ion-icon onclick="CriarQuiz()"name="add-circle"></ion-icon>
-       </div> 
-       <div class="TodosOsQuizzes ">
-        <h1> Todos os Quizzes</h1>
-       </div> 
-
-
+      <div class="NovoUsuario">
+        <h1>Todos os Quizzes</h1>
+      </div>
+      <div class="Usuario escondido">
+        <h1>Seus Quizzes</h1>
+        <ion-icon onclick="CriarQuiz()" name="add-circle"></ion-icon>
+      </div>
     </div>
 
-    <div class="Segundatela escondido">
-
-
-
-
-
-
-
-
-
+    <div class="Segundatela">
+      <div class="criar-quizz">
+        <p>
+          Você não criou nenhum
+          <br />
+          quizz ainda :(
+        </p>
+        <button class="BotaoCriar">Criar Quizz</button>
+      </div>
+    </div>
+    <div class="q-base-info">
+      <div class="comece">Comece pelo começo</div>
+      <div class="dados">
+        <div class="titulo">
+          <input
+            class="tquiz"
+            type="text"
+            placeholder="Título do seu quiz"
+            minlength="20"
+            maxlength="65"
+          />
+        </div>
+        <div class="imagem">
+          <input
+            class="url"
+            type="text"
+            placeholder="URL da imagem do seu quizz"
+          />
+        </div>
+        <div class="perguntas">
+          <input type="text" placeholder="Quantidade de perguntas do quizz" />
+        </div>
+        <div class="niveis">
+          <input type="text" placeholder="Quantidade de níveis do quizz" />
+        </div>
+      </div>
+      <button class="prosseguir" onclick="criarperguntas">
+        Prosseguir para criar perguntas
+      </button>
     </div>
 
     <div class="Terceiratela escondido">
-
-        <div>
-            <p> TELA3 </p>
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      <div>
+        <p>TELA3</p>
+      </div>
     </div>
 
-
-
-
-
-    <script  type = "module"  src = "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" > </script> 
-    <script  nomodule  src = "https://unpkg .com/ionicons@5.5.2/dist/ionicons/ionicons.js"> </script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg .com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
     <script src="./Script/script-tela1.js"></script>
     <script src="./Script/script-tela2.js"></script>
     <script src="./Script/script-tela3.js"></script>
-</body>
-
+  </body>
 </html>
