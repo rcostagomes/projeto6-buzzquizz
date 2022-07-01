@@ -159,6 +159,7 @@ header h1 {
   margin-top: 100px;
 }
 
+<<<<<<< HEAD
 @media (max-width: 935px) {
   q-base-info {
     
@@ -207,4 +208,64 @@ header h1 {
     font-size: 20px;
     font-weight: 700;
   }
+=======
+.q-base-info {
+  width: 600px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 135px;
+}
+
+.Titulo {
+  margin-bottom: 40px;
+}
+
+.Conteudo {
+  width: 600px;
+  height: auto;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 25px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.insert {
+  width: 564px;
+  height: 46px;
+  border: solid 1px #d1d1d1;
+  border-radius: 5px;
+  margin-bottom: 9px;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+}
+.insert input {
+  width: 100%;
+  font-size: 19px;
+  outline: none;
+  border: none;
+  resize: none;
+}
+.insert input::placeholder {
+  color: #bababa;
+  font-style: italic;
+}
+
+.redbutton {
+  width: 370px; /* muda pra 325px no mobile */
+  height: 54px;
+  border-radius: 15px;
+  background-color: #ec362d;
+  color: #fff5f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 21px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin-bottom: 60px;
+>>>>>>> bde5620059b5c7987d2709cb66a5ee981a0e146b
 }
