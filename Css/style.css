@@ -115,25 +115,33 @@ header h1 {
   height: 181px;
   margin-bottom: 40px;
   position: relative;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+
 }
 
-.quizz img{
+.quizz .imagem{
   width: 100%;
   height: 100%;
   border-radius: 5px;
-  background-image:linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 64.58%, #000000 100%);
+  cursor: pointer;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 64.58%, #000000 100%);
 }
 
-.quizz .Titulo{
-  max-width: 200px;
+.quizz .Titulo{ 
   position: absolute;
   font-size: 19px;
   color: white;
   z-index:2;
-  bottom: 7px;
-  left: 18px;
+  top: 140px;
+  bottom: 5px;
+  left: 10px;
+  right: 0px;
+  max-width: 230px;
 
 }
+
+
 
 
 
@@ -148,6 +156,22 @@ header h1 {
 .Segundatela {
 }
 
+.bannerQuizz{
+  margin-top: 69px;
+  position: relative;
+  width: 100%;
+}
+
+.bannerQuizz img{
+  width: 100%;
+  height: 227px;   
+  object-fit:cover;
+  object-position:100% 30%;
+ 
+}
+
+
+
 /* Tela de criação de quizz */
 
 .Terceiratela {
@@ -159,56 +183,6 @@ header h1 {
   margin-top: 100px;
 }
 
-<<<<<<< HEAD
-@media (max-width: 935px) {
-  q-base-info {
-    
-  }
-
-  .titulo .imagem .perguntas .niveis {
-    height: 46px;
-    width: 341px;
-    border: 1px;
-    border-color: #d1d1d1;
-    margin: 4px 0;
-  }
-
-  .dados {
-    width: 375px;
-    height: 256px;
-    color: #ffffff;
-  }
-
-  input {
-    font-size: 19px;
-    color: #bababa;
-    font-style: italic;
-    height: 46px;
-    width: 341px;
-    border: 1px;
-    border-color: #db4f4f;
-  }
-
-  .prosseguir {
-    background-color: #ec362d;
-    width: 324px;
-    height: 54px;
-    border-radius: 15px;
-    color: white;
-    size: 18px;
-  }
-
-  .comece {
-    background-color: #e5e5e5;
-    height: 100px;
-    width: 375px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    font-size: 20px;
-    font-weight: 700;
-  }
-=======
 .q-base-info {
   width: 600px;
   height: auto;
@@ -267,5 +241,4 @@ header h1 {
   font-size: 21px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   margin-bottom: 60px;
->>>>>>> bde5620059b5c7987d2709cb66a5ee981a0e146b
 }
