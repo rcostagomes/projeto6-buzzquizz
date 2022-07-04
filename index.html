@@ -16,7 +16,7 @@
     <header>
       <h1>BuzzQuizz</h1>
     </header>
-
+<div class="container">
     <div class="Primeiratela">
       <div class="criar-quizz">
         <p>
@@ -24,11 +24,11 @@
           <br />
           quizz ainda :(
         </p>
-        <button class="BotaoCriar" onclick="CriarQuiz()">Criar Quizz</button>
+        <button class="BotaoCriar" onclick="criarQuizz1()">Criar Quizz</button>
       </div>
       <div class="Usuario ">
         <h1>Seus Quizzes</h1>
-        <ion-icon onclick="CriarQuiz()" name="add-circle"></ion-icon>
+        <ion-icon onclick="criarQuizz1()" name="add-circle"></ion-icon>
       </div>
 
       <div class="NovoUsuario">
@@ -42,19 +42,21 @@
     </div>
 
     <div class="Segundatela escondido">
+
+
    </div>
 
     </div>
 
     <div class="Terceiratela escondido">
       <div>
-        <blockquote class="substituir" onclick="CQ1()"></button>
+        <blockquote class="substituir" onclick="criarQuizz1()"></button>
       </div>
     </div>
 
 
 
-
+  </div>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script type="module"src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script src="./Script/script-tela1.js"></script>
